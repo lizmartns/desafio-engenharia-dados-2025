@@ -19,6 +19,7 @@ __pycache__/
 *.sqlite
 
 datalake/**/*.json
+schema/**/*.json
 !data/*.json
 
 # Arquivos pessoais
