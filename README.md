@@ -68,29 +68,53 @@ Este repositório contém a solução completa dos Desafios 1 e 2 da vaga de Eng
 ## Estrutura do Projeto
 
 desafio-engenharia-dados-2025/
+
 ├── data/
+
 │ ├── ERP.json
+
 │ └── ERP_taxation.json
+
 ├── datalake/
+
 │ └── raw/
+
 ├── database/
+
 ├── docs/
+
 │ ├── estrategia.md    # para pensamentos, justificativas e estratégias
+
 │ └── 
+
 │ └── kanban.md
+
 ├── sql/
+
 │ ├── core/
+
 │ ├── payments/
+
 │ ├── discounts/
+
 │ ├── service/
+
 │ └── errors/
+
 ├── src/
+
 │ ├── data_loader.py
+
 │ ├── schema_builder.py
+
 │ └── simulate_data_lake.py
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
+
 
 ---
 

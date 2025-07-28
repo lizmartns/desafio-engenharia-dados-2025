@@ -18,10 +18,8 @@ __pycache__/
 *.db
 *.sqlite
 
-# Dados sensíveis ou gerados
-database/
-datalake/
-*.json
+datalake/**/*.json
+!data/*.json
 
 # Arquivos pessoais
 *.zip
