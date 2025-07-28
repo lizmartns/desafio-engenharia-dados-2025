@@ -18,8 +18,9 @@ __pycache__/
 *.db
 *.sqlite
 
+# Arquivos de JSON
+schema/erp_schema.json
 datalake/**/*.json
-schema/**/*.json
 !data/*.json
 
 # Arquivos pessoais

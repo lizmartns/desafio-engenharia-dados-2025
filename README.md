@@ -85,7 +85,7 @@ desafio-engenharia-dados-2025/
 
 │ ├── estrategia.md    # para pensamentos, justificativas e estratégias
 
-│ └── 
+│ └── Diagrama_ER.drawio.png
 
 │ └── kanban.md
 
