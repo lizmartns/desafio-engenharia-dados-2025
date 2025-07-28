@@ -140,17 +140,17 @@ source .venv/bin/activate      # Linux/macOS
 ```bash
 pip install -r requirements.txt
 ```
-4. Executar simulação de ingestão (Desafio 2)
-```bash
-python src/simulate_data_lake.py
-```
-5. Validar schema JSON (Desafio 1)
+4. Validar schema JSON (Desafio 1)
 ```bash
 python src/schema_builder.py
 ```
-6. Carregar JSON no banco de dados
-```bas
+5. Carregar JSON no banco de dados
+```bash
 python src/data_loader.py
+```
+6. Executar simulação de ingestão (Desafio 2)
+```bash
+python src/simulate_data_lake.py
 ```
 7. Testes Automatizados
 ```bash
