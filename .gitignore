@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos temporários e cache
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Banco local
+*.db
+*.sqlite
+
+# Dados sensíveis ou gerados
+database/
+datalake/
+*.json
+
+# Arquivos pessoais
+*.zip
+*.tar.gz
+*.bak
+
+# Notebooks temporários
+*.ipynb_checkpoints/
