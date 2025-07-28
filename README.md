@@ -109,6 +109,8 @@ desafio-engenharia-dados-2025/
 
 │ └── simulate_data_lake.py
 
+├── tests/
+
 ├── requirements.txt
 
 ├── .gitignore
@@ -136,24 +138,25 @@ source .venv/bin/activate      # Linux/macOS
 ```
 3. Instalar dependências
 ```bash
-Copiar código
 pip install -r requirements.txt
 ```
 4. Executar simulação de ingestão (Desafio 2)
 ```bash
-Copiar código
 python src/simulate_data_lake.py
 ```
 5. Validar schema JSON (Desafio 1)
 ```bash
-Copiar código
 python src/schema_builder.py
 ```
 6. Carregar JSON no banco de dados
-```bash
-Copiar código
+```bas
 python src/data_loader.py
 ```
+7. Testes Automatizados
+```bash
+pytest tests/
+```
+
 # Considerações Finais
 A modelagem relacional foi baseada em entidades reais de operação de restaurante e estruturada por domínio funcional (core, pagamentos, descontos, etc.).
 
